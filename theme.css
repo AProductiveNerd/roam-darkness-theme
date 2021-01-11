@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+::selection {
+	background-color: rgb(35, 171, 255) !important;
+}
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+.rm-block-input {
+	font-family: "Poppins", sans-serif;
+}
+
+.roam-app,
+.rm-reference-item,
+#right-sidebar,
+.roam-article,
+.bp3-elevation-3,
+.rm-reference-item,
+.bp3-menu,
+.bp3-input,
+.rm-bq,
+.bp3-dialog,
+.rm-paren,
+.rm-inline-references,
+.block-ref-count-button {
+	background-color: rgb(24, 32, 38) !important;
+}
+
+.block-ref-count-button {
+	border: 2.2px solid #ffffff;
+}
+
+.react-resizable {
+	border: 2px solid rgb(241 140 247 / 32%);
+}
+
+.rm-inline-references {
+	border-top: 2px solid #db00ff;
+}
+
+.rm-bq span::before {
+	content: "💡 ";
+}
+
+.rm-highlight {
+	background-color: rgba(254, 141, 252, 0.5);
+}
+
+.roam-article,
+#right-sidebar,
+.bp3-elevation-3,
+.roam-topbar,
+.rm-page-ref-tag,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bp3-menu,
+.bp3-input,
+.rm-bq,
+.bp3-menu-item,
+.menu-item,
+.menu-title,
+button.bp3-button.bp3-minimal.bp3-small {
+	color: white !important;
+}
+
+.rm-highlight {
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	/* text-emphasis-position: under left;
+	-webkit-text-emphasis-position: under left; */
+	text-decoration-color: rgb(35, 171, 255);
+	-webkit-text-decoration-color: rgb(35, 171, 255);
+}
+
+.rm-resize-handle {
+	background-color: #11c40045;
+	min-width: 2px;
+	width: 5px;
+}
+
+.roam-topbar {
+	background-color: rgba(24, 32, 38, 0.8) !important;
+}
+
+.rm-bq {
+	font-family: "Lobster", cursive !important;
+	font-size: 44px;
+	line-height: 50px;
+}
+
+.roam-highlight,
+.rm-page-ref-tag,
+.rm-block-ref:hover {
+	background-color: rgb(18, 151, 74);
+}
+
+.rm-page-ref-tag {
+	padding: 2px 7px;
+	border-radius: 8px;
+	margin: 10px 2px !important;
+}
+
+path {
+	fill: white !important;
+}
+
+.rm-page-ref-link-color,
+.rm-page-ref,
+.rm-page-ref__brackets + span,
+.rm-ref-page-view-title a {
+	color: #23abff;
+}
+
+.rm-page-ref--tag {
+	color: #ff8dfe;
+}
+
+.rm-page-ref--namespace {
+	color: rgb(0, 255, 107) !important;
+}
+
+/* Make page width wider */
+
+.roam-block-container,
+.roam-block,
+.rm-block-text {
+	max-width: 950px;
+}
+
+.roam-body-main > div {
+	padding-right: 0px !important;
+	max-width: 1550px;
+}
+
+.roam-center > div {
+	padding-right: 0px !important;
+	padding-left: 500px !important;
+}
+
+#buffer {
+	padding: 0px !important;
+}
+
+/* end page widening */
