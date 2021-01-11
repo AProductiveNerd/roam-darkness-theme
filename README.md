@@ -6,4 +6,6 @@ To use this theme,
 1. Create a code block by typing "`" thrice
 2. Set the language to CSS
 3. Paste the following statement in the code block!
-  @import url("https://pale-candle-failing.glitch.me/theme.css");
+
+
+@import url("https://pale-candle-failing.glitch.me/theme.css");
